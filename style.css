@@ -23,17 +23,18 @@
     text-decoration: underline;
 }
 .logo{
-    padding-top: 15.3vh;
-}
-.google-logo{
-    height: 15.9vh;
-    width: auto;
+    width: 21.2vw;
+    height: 15vh;
+    background: url(images/google_logo.png) no-repeat;
+    background-size: 21.2vw;
+    margin-top: 5.4em;
 }
 .bottom-right{
-    position: absolute;
+    position: relative;
     color: #4285f4;
-    left: 44.93em;
-    top: 14.4em;
+    float: right;
+    top: 4.63em;
+    right: .35em;
 }
 .search-bar{
     display: flex;
