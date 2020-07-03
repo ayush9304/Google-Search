@@ -29,6 +29,12 @@
     height: 15.9vh;
     width: auto;
 }
+.bottom-right{
+    position: absolute;
+    color: #4285f4;
+    left: 44.93em;
+    top: 14.4em;
+}
 .search-bar{
     display: flex;
     border-radius:24px;
@@ -78,3 +84,15 @@
     cursor: pointer;
     color: #222222;
 }
+.image-search-submit{
+    background: url("images/search_icon_1.png") no-repeat scroll 0 0 transparent;
+    background-size: 1.6em;
+    background-position: center;
+    cursor: pointer;
+    /*background-image: url("images/search_icon_1.png");*/
+    width: auto;
+    border: none;
+    color: transparent;
+    margin-left: .4em;
+}
+
