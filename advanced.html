@@ -22,62 +22,96 @@
         <font color="#db3025">Advanced Search</font>
     </div>
     <div class="adv-container">
-        <form action="https://google.com/search" name="f">
-            <div class="main-form">
-                <div class="row">
-                    <div>Find Pages with...</div>
-                    <div>&nbsp;</div>
-                    <div>To do this in the search box.</div>
+        <div class="top">
+            <form action="https://google.com/search" name="f">
+                <div class="main-form">
+                    <div class="row">
+                        <div class="fields" id="heads1">Find pages with...</div>
+                        <div id="space" >&nbsp;</div>
+                        <div id="heads2" style="">To do this in the search box.</div>
+                    </div>
+                    <div class="row">
+                        <div class="fields">
+                            <label for="">all these words: </label>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="as_q">
+                        </div>
+                        <div class="righthint">
+                            <div>
+                                Type the important words: <span>tri-colour rat terrier</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="fields">
+                            <label for="">this exact word or phrase: </label>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="as_epq">
+                        </div>
+                        <div class="righthint">
+                            <div>
+                                Put exact words in quotes: <span>"rat terrier"</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="fields">
+                            <label for="">any of these words: </label>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="as_oq">
+                        </div>
+                        <div class="righthint">
+                            <div>
+                                Type OR between all the words you want: <span>miniature OR standard</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="fields">
+                            <label for="">none of these words: </label>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="as_eq">
+                        </div>
+                        <div class="righthint">
+                            <div>
+                                Put a minus sign just before words that you don't want: <span>-rodent, -"Jack Russell"</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="fields"></div>
+                        <div class="inputbox">
+                            <div id="submitbutton">
+                                <input type="submit" value="Advanced Search">
+                            </div>
+                        </div>
+                        <div class="righthint"></div>
+                    </div>
                 </div>
-                <div class="row">
-                    <div>
-                        <label for="">all these words: </label>
-                    </div>
-                    <div>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <span>Type the important words: tri-colour rat terrier</span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div>
-                        <label for="">this exact word or phase: </label>
-                    </div>
-                    <div>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <span>Put exact words in quotes: "rat terrier"</span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div>
-                        <label for="">any of these words: </label>
-                    </div>
-                    <div>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <span>Type OR between all the words you want: miniature OR standard</span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div>
-                        <label for="">none of these words: </label>
-                    </div>
-                    <div>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <span>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
-                    </div>
-                </div>
-                <div class="row5">
-                    <input type="submit" value="Advanced Search">
-                </div>
+            </form>
+        </div>
+        <div class="gap"></div>
+        <div class="additional">
+            <div id="first">
+                <span>You can also...</span>
             </div>
-        </form>
+            <div>
+                <a href="https://support.google.com/websearch?p=adv_pages_similar&hl=en">Find pages that are similar to a URL</a>
+            </div>
+            <div>
+                <a href="https://support.google.com/websearch?p=adv_pages_visited&hl=en">Search pages that you've visited</a>
+            </div>
+            <div class="spec">
+                <a href="https://support.google.com/websearch?p=adv_operators&hl=en">Use operators in the search box</a>
+            </div>
+            <div class="spec">
+                <a href="https://www.google.com/preferences?hl=en-IN">Customise your search settings</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>

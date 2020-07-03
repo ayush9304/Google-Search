@@ -99,3 +99,166 @@
     margin-left: .4em;
 }
 
+
+/********************************/
+/*For Advanced.html*/
+/********************************/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    height: 10.4vh;
+}
+.leftnav{
+    margin-left: 1em;
+}
+.leftnav img{
+    height: 1.935em;
+    width: 5.685em;
+    margin: 1.04em auto 1em auto;
+}
+.rightnav{
+    margin-right: 1em;
+    padding: 1.65em 0 1.435em 0;
+    font-size: .84em;
+}
+.rightnav a{
+    color: #212121;
+    text-decoration: none;
+    margin: auto 1.4em auto 1em;
+}
+.rightnav a:hover{
+    color: #434343;
+    text-decoration: underline;
+}
+.bottomnav{
+    /*height: 12.58vh;*/
+    border-bottom: 1px solid #ebebeb;
+    font-size: 20px;
+    padding: 25px 45px;
+}
+.adv-container{
+    margin: 40px 2% 0 45px;
+}
+.main-form{
+    padding-top: 7px;
+}
+.row{
+    display: flex;
+    height: 42px;
+}
+.row > .fields{
+    float: left;
+    display: inline-block;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    line-height: 16px;
+    vertical-align: middle;
+}
+.fields label{
+    font-size: 13px;
+}
+#space{
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 47.5%;
+}
+.row > .inputbox{
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 42px;
+    vertical-align: middle;
+    width: 47.5%;
+}
+.inputbox > input{
+    float: right;
+    width: 98%;
+    text-align: left;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 60%;
+}
+.inputbox > input:focus{
+    outline: none;
+    border: 1px solid #4d90fe;
+    box-shadow: inset .7px 1.3px 2px 0px #c3c3c3;
+}
+.righthint{
+    float: left;
+    display: inline-block;
+    width: 29%;
+    min-width: 160px;
+    margin: 0 0 8px 10px;
+    padding-left: 5px;
+    color: #555;
+    font-size: 11px;
+    vertical-align: middle;
+}
+#heads2{
+    color: #777; 
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 1px;
+}
+.righthint > div{
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.righthint span{
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+}
+#submitbutton{
+    float: right;
+}
+#submitbutton > input[type=submit]{
+    background-color: #4c8efb;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    color: white;
+    font-family: arial,sans-serif;
+    min-width: 120px;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 11px 4px 0 auto;
+    padding: 0 12px;
+    line-height: 27px;
+    height: 30px;
+}
+#submitbutton > input[type=submit]:hover{
+    background-color: #478af8;
+    border: 1px solid #2f5bb7;
+}
+.gap{
+    border-top: 1.5px solid #ebebeb;
+    margin: 30px 0;
+}
+.additional{
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 90px;
+}
+.additional > #first{
+    width: 16%;
+    font-size: 16px;
+    height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+}
+.additional a{
+    text-decoration: none;
+}
+.additional a:hover{
+    text-decoration: underline;
+}
