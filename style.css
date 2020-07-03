@@ -56,7 +56,6 @@
     width: 36em;
     height: 3.25em;
     border: hidden;
-    font-size: .84em;
 }
 .search-box:focus{
     outline: none;
@@ -156,7 +155,6 @@
     height: 42px;
 }
 .row > .fields{
-    float: left;
     display: inline-block;
     width: 16%;
     height: 42px;
@@ -168,7 +166,6 @@
     font-size: 13px;
 }
 #space{
-    float: left;
     display: inline-block;
     min-width: 167px;
     min-height: 41px;
@@ -176,7 +173,6 @@
     width: 47.5%;
 }
 .row > .inputbox{
-    float: left;
     display: inline-block;
     min-width: 167px;
     min-height: 42px;
@@ -199,7 +195,6 @@
     box-shadow: inset .7px 1.3px 2px 0px #c3c3c3;
 }
 .righthint{
-    float: left;
     display: inline-block;
     width: 29%;
     min-width: 160px;
