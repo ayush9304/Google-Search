@@ -85,6 +85,9 @@
     cursor: pointer;
     color: #222222;
 }
+/*.search-buttons > input:active{
+    border-color: #4d90fe;
+}*/
 .image-search-submit{
     background: url("images/search_icon_1.png") no-repeat;
     background-size: 1.6em;
